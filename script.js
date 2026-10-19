@@ -66,12 +66,12 @@
 
     var META = {
         es: {
-            title: "Alejandro | Páginas web y SEO técnico en República Dominicana",
-            desc: "Desarrollador web y especialista en SEO técnico. Creo páginas web rápidas y las preparo para Google para que tu negocio reciba más clientes."
+            title: "Diseño de páginas web y SEO en Santo Domingo | Alejandro",
+            desc: "Diseño páginas web rápidas para negocios en Santo Domingo y las dejo listas para Google: SEO técnico, Google Maps y Analytics. Escríbeme por WhatsApp."
         },
         en: {
-            title: "Alejandro | Websites and Technical SEO in the Dominican Republic",
-            desc: "Web developer and technical SEO specialist. I build fast websites and get them ready for Google so your business gets more customers."
+            title: "Web Design and SEO in Santo Domingo, DR | Alejandro",
+            desc: "I build fast websites for businesses in Santo Domingo and get them ready for Google: technical SEO, Google Maps and Analytics. Message me on WhatsApp."
         }
     };
 

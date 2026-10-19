@@ -1,0 +1,24 @@
+# Alejandro, diseño de páginas web y SEO en Santo Domingo
+
+> Alejandro es desarrollador web y especialista en SEO técnico en Santo Domingo, República Dominicana. Diseña páginas web rápidas para negocios locales, las deja listas para Google y configura la medición con Google Analytics 4, Tag Manager y Search Console. Trabaja de forma remota y también se reúne en persona en el Distrito Nacional.
+
+## Servicios
+
+- [Diseño de páginas web](https://jorgecesar7.github.io/#experience): sitios hechos para celular, con botón de WhatsApp y listos para Google desde el primer día.
+- [Google Maps](https://jorgecesar7.github.io/#experience): creación y optimización del Perfil de Empresa de Google, con categorías, horario, fotos y código QR para pedir reseñas.
+- [SEO técnico](https://jorgecesar7.github.io/#experience): velocidad, estructura, sitemap, robots.txt y datos estructurados JSON-LD que pasan las pruebas de Google sin errores.
+- [Medición](https://jorgecesar7.github.io/#experience): Google Analytics 4, Google Tag Manager, Search Console y Microsoft Clarity.
+
+## Sobre Alejandro
+
+- [Perfil](https://jorgecesar7.github.io/#about): aprendió tecnología por su cuenta y hoy trabaja en desarrollo web y SEO técnico para negocios de servicios.
+- Certificación: AWS Certified Cloud Practitioner.
+- Idiomas: español e inglés.
+- Herramientas: HTML, CSS, JavaScript, WordPress, GA4, Tag Manager, Search Console, Screaming Frog, Ahrefs, Bing Webmaster Tools, Clarity.
+
+## Contacto
+
+- [WhatsApp 829-551-7567](https://wa.me/18295517567)
+- [Correo](mailto:jorgecesarrevette@gmail.com)
+- [GitHub](https://github.com/JorgeCesar7)
+- [LinkedIn](https://www.linkedin.com/in/jorge-cesar-96657423a/)
