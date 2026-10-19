@@ -5,10 +5,25 @@
     <loc>https://jorgecesar7.github.io/</loc>
     <lastmod>2026-10-19</lastmod>
     <image:image>
-      <image:loc>https://jorgecesar7.github.io/img/ranger.webp</image:loc>
+      <image:loc>https://jorgecesar7.github.io/img/lampstand-hero.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://jorgecesar7.github.io/img/ranger-closeup.webp</image:loc>
+      <image:loc>https://jorgecesar7.github.io/img/lampstand-about.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jorgecesar7.github.io/paginas-web/</loc>
+    <lastmod>2026-10-19</lastmod>
+  </url>
+  <url>
+    <loc>https://jorgecesar7.github.io/google-maps/</loc>
+    <lastmod>2026-10-19</lastmod>
+  </url>
+  <url>
+    <loc>https://jorgecesar7.github.io/pagina-web-para-barberias/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <image:image>
+      <image:loc>https://jorgecesar7.github.io/img/demo-barberia-movil.webp</image:loc>
     </image:image>
   </url>
 </urlset>

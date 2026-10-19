@@ -652,3 +652,16 @@ section:not(.hero) { padding: 96px 0; }
     .skill-main { grid-column: auto; }
     .skill-card { padding: 22px; }
 }
+
+/* Brand mark and service links (Lampstand) */
+.logo { display: inline-flex; align-items: center; gap: 10px; }
+.logo svg { width: 22px; height: 40px; color: var(--text); flex: none; }
+.service a.more { display: inline-block; margin-top: 8px; color: var(--accent); font-weight: 500; font-size: 0.95rem; }
+.service a.more:hover { text-shadow: var(--glow); }
+.footer-links { margin-top: 6px; font-size: 0.85rem; }
+@media (max-width: 440px) {
+    .logo { gap: 6px; }
+    .logo svg { width: 17px; height: 31px; }
+    .logo span { font-size: 1.22rem; }
+    .nav-actions { gap: 8px; }
+}

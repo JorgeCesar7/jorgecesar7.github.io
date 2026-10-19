@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Barbería La Navaja | Barbería en Santo Domingo (demo)</title>
+  <meta name="description" content="Barbería La Navaja en Santo Domingo: corte clásico, fade, barba con toalla caliente y más. Sitio de demostración, negocio ficticio.">
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#141315">
+  <link rel="preload" href="fonts/anton-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/archivo-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <div class="demo-banner">
+    <a href="/pagina-web-para-barberias/">Sitio de demostración creado por Lampstand. Negocio ficticio.</a>
+  </div>
+
+  <header class="header" id="inicio">
+    <div class="wrap header__inner">
+      <a class="logo" href="#inicio" aria-label="Barbería La Navaja, ir al inicio">
+        <span class="logo__small">Barbería</span>
+        <span class="logo__big">La Navaja</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
+      <nav class="nav" id="menu" aria-label="Principal">
+        <ul>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#horario">Horario</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--brass btn--sm header__wa" href="https://wa.me/18090000000" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__text">
+          <p class="eyebrow">Santo Domingo</p>
+          <h1>Corte limpio.<br>Sin vueltas.</h1>
+          <p class="hero__sub">Tu barbería en Santo Domingo. Fade, clásico y barba con toalla caliente. Escríbenos y separa tu turno.</p>
+          <div class="hero__actions">
+            <a class="btn btn--brass" href="https://wa.me/18090000000?text=Hola%2C%20quiero%20reservar%20un%20turno%20en%20La%20Navaja" target="_blank" rel="noopener">Reservar por WhatsApp</a>
+            <a class="btn btn--ghost" href="#servicios">Ver servicios</a>
+          </div>
+        </div>
+        <figure class="hero__media">
+          <img src="img/barberia-interior.webp" width="1400" height="930" alt="Interior de una barbería con tres sillones de cuero negro, espejos, lámparas colgantes y pared de ladrillo" fetchpriority="high">
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="servicios" aria-labelledby="servicios-titulo">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow">Lo que hacemos</p>
+          <h2 id="servicios-titulo">Servicios</h2>
+          <p class="section__lead">Dinos qué quieres y te lo hacemos bien. Los precios te los damos por WhatsApp.</p>
+        </div>
+        <ul class="services">
+          <li class="service reveal">
+            <span class="service__num" aria-hidden="true">01</span>
+            <h3>Corte clásico</h3>
+            <p>Tijera y máquina, como siempre. Parejo y fácil de peinar.</p>
+            <p class="service__price">Precio a consultar</p>
+          </li>
+          <li class="service reveal">
+            <span class="service__num" aria-hidden="true">02</span>
+            <h3>Fade</h3>
+            <p>Bajo, medio o alto. Un degradado bien hecho, sin escalones.</p>
+            <p class="service__price">Precio a consultar</p>
+          </li>
+          <li class="service reveal">
+            <span class="service__num" aria-hidden="true">03</span>
+            <h3>Barba con toalla caliente</h3>
+            <p>Toalla caliente, navaja y aceite. Sales con la cara fresca.</p>
+            <p class="service__price">Precio a consultar</p>
+          </li>
+          <li class="service reveal">
+            <span class="service__num" aria-hidden="true">04</span>
+            <h3>Corte + barba</h3>
+            <p>El combo completo para cuando quieres salir listo de una vez.</p>
+            <p class="service__price">Precio a consultar</p>
+          </li>
+          <li class="service reveal">
+            <span class="service__num" aria-hidden="true">05</span>
+            <h3>Cejas</h3>
+            <p>Limpieza y perfilado con navaja. Natural, nada exagerado.</p>
+            <p class="service__price">Precio a consultar</p>
+          </li>
+          <li class="service reveal">
+            <span class="service__num" aria-hidden="true">06</span>
+            <h3>Corte de niño</h3>
+            <p>Paciencia y buen trato para los más pequeños de la casa.</p>
+            <p class="service__price">Precio a consultar</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="nosotros" aria-labelledby="nosotros-titulo">
+      <div class="wrap about">
+        <figure class="about__media reveal">
+          <img src="img/corte-navaja.webp" width="960" height="1200" alt="Barbero perfilando con navaja el corte de un cliente con barba, de cerca junto a la oreja" loading="lazy">
+        </figure>
+        <div class="about__text">
+          <p class="eyebrow">Por qué elegirnos</p>
+          <h2 id="nosotros-titulo">Aquí vienes a relajarte, no a esperar</h2>
+          <p class="section__lead">La Navaja es una barbería de barrio. Trabajamos con calma, con buena música y con atención a los detalles.</p>
+          <ul class="points">
+            <li class="reveal">
+              <h3>Te escuchamos primero</h3>
+              <p>Nos dices cómo lo quieres y lo hacemos así. Si tienes una foto, mejor.</p>
+            </li>
+            <li class="reveal">
+              <h3>Herramientas limpias</h3>
+              <p>Desinfectamos todo entre cliente y cliente. Navaja nueva en cada afeitado.</p>
+            </li>
+            <li class="reveal">
+              <h3>Turno por WhatsApp</h3>
+              <p>Escribes, separas tu hora y llegas. Así no pierdes la tarde sentado.</p>
+            </li>
+            <li class="reveal">
+              <h3>Buen ambiente</h3>
+              <p>Buena conversación, cero apuro. Te vas como llegaste: tranquilo, pero recortado.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="horario" aria-labelledby="horario-titulo">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow">Cuándo y dónde</p>
+          <h2 id="horario-titulo">Horario y ubicación</h2>
+        </div>
+        <div class="visit">
+          <div class="hours reveal">
+            <h3>Horario</h3>
+            <dl class="hours__list">
+              <div><dt>Lunes a sábado</dt><dd>9:00 AM a 8:00 PM</dd></div>
+              <div><dt>Domingo</dt><dd>9:00 AM a 2:00 PM</dd></div>
+            </dl>
+            <h3>Dirección</h3>
+            <p>Calle de ejemplo, Santo Domingo, República Dominicana.</p>
+            <p class="muted">Dirección ficticia para esta demostración.</p>
+            <a class="btn btn--ghost" href="https://www.google.com/maps?q=Santo+Domingo" target="_blank" rel="noopener">Abrir en Google Maps</a>
+          </div>
+          <div class="map reveal">
+            <iframe src="https://www.google.com/maps?q=Santo+Domingo&amp;output=embed" title="Mapa de Santo Domingo" width="600" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="contacto" aria-labelledby="contacto-titulo">
+      <div class="wrap contact">
+        <div class="contact__text">
+          <p class="eyebrow">Contacto</p>
+          <h2 id="contacto-titulo">Separa tu turno</h2>
+          <p class="section__lead">Llena esto y te abre WhatsApp con el mensaje listo. Solo tienes que darle a enviar.</p>
+          <form class="form" id="wa-form" data-wa="18090000000" data-negocio="La Navaja">
+            <div class="field">
+              <label for="nombre">Tu nombre</label>
+              <input id="nombre" name="nombre" type="text" autocomplete="given-name" required>
+            </div>
+            <div class="field">
+              <label for="servicio">Servicio</label>
+              <select id="servicio" name="servicio">
+                <option>Corte clásico</option>
+                <option>Fade</option>
+                <option>Barba con toalla caliente</option>
+                <option>Corte + barba</option>
+                <option>Cejas</option>
+                <option>Corte de niño</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="dia">Día que te conviene</label>
+              <input id="dia" name="dia" type="text" placeholder="Ej: sábado en la mañana">
+            </div>
+            <button class="btn btn--brass" type="submit">Enviar por WhatsApp</button>
+          </form>
+          <p class="contact__alt">¿Prefieres llamar? <a href="tel:+18090000000">(809) 000-0000</a></p>
+        </div>
+        <figure class="contact__media reveal">
+          <img src="img/herramientas.webp" width="1400" height="934" alt="Máquinas de cortar, tijeras, peine y productos para el cabello sobre una tabla de pizarra" loading="lazy">
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div>
+        <p class="logo logo--footer"><span class="logo__small">Barbería</span><span class="logo__big">La Navaja</span></p>
+        <p class="muted">Santo Domingo, República Dominicana</p>
+      </div>
+      <div>
+        <p>Lun a sáb: 9:00 AM a 8:00 PM</p>
+        <p>Dom: 9:00 AM a 2:00 PM</p>
+      </div>
+      <p class="footer__note">Negocio ficticio. <a href="/pagina-web-para-barberias/">Sitio de demostración creado por Lampstand</a>.</p>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/18090000000" target="_blank" rel="noopener">WhatsApp</a>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

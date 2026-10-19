@@ -8,8 +8,12 @@
         nav_contact: "Contact",
         menu_open: "Open menu",
         menu_close: "Close menu",
-        hero_alt: "Ranger illustration, the Alej logo",
-        about_alt: "Illustration of a ranger with a helmet and gas mask",
+        hero_alt: "Lampstand logo, a lit lamp",
+        sv1_more: "See websites",
+        sv2_more: "See Google Maps",
+        fl_web: "Websites",
+        fl_barber: "Websites for barbershops",
+        about_alt: "Illustration of a website on a computer and a Google map on a phone",
         hero_hi: "Hey, I'm",
         hero_sub: "I build fast websites and get them ready for Google so your business gets more customers.",
         cta_whatsapp: "Message me on WhatsApp",
@@ -66,7 +70,7 @@
 
     var META = {
         es: {
-            title: "Diseño de páginas web y SEO en Santo Domingo | Lampstand",
+            title: "Páginas web y SEO para negocios en Santo Domingo | Lampstand",
             desc: "Diseño páginas web rápidas para negocios en Santo Domingo y las dejo listas para Google: SEO técnico, Google Maps y Analytics. Escríbeme por WhatsApp."
         },
         en: {

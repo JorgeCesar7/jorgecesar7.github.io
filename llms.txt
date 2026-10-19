@@ -4,10 +4,14 @@
 
 ## Servicios
 
-- [Diseño de páginas web](https://jorgecesar7.github.io/#experience): sitios hechos para celular, con botón de WhatsApp y listos para Google desde el primer día.
-- [Google Maps](https://jorgecesar7.github.io/#experience): creación y optimización del Perfil de Empresa de Google, con categorías, horario, fotos y código QR para pedir reseñas.
+- [Diseño de páginas web](https://jorgecesar7.github.io/paginas-web/): sitios hechos para celular, con botón de WhatsApp y listos para Google desde el primer día.
+- [Google Maps](https://jorgecesar7.github.io/google-maps/): creación y optimización del Perfil de Empresa de Google, con categorías, horario, fotos y código QR para pedir reseñas.
 - [SEO técnico](https://jorgecesar7.github.io/#experience): velocidad, estructura, sitemap, robots.txt y datos estructurados JSON-LD que pasan las pruebas de Google sin errores.
 - [Medición](https://jorgecesar7.github.io/#experience): Google Analytics 4, Google Tag Manager, Search Console y Microsoft Clarity.
+
+## Páginas por tipo de negocio
+
+- [Página web para barberías](https://jorgecesar7.github.io/pagina-web-para-barberias/): servicios y precios, galería de cortes, reservas por WhatsApp y conexión con Google Maps. Incluye una demo de una barbería ficticia.
 
 ## Sobre Alejandro
 
