@@ -1,0 +1,34 @@
+/* Phosphor Icons (MIT), regular weight, subset to the icons used on this page. */
+@font-face {
+    font-family: "Phosphor";
+    src: url("fonts/phosphor-subset.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.ph {
+    font-family: "Phosphor" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ph.ph-list:before{content:"\e2f0";}
+.ph.ph-x:before{content:"\e4f6";}
+.ph.ph-whatsapp-logo:before{content:"\e5d0";}
+.ph.ph-github-logo:before{content:"\e576";}
+.ph.ph-linkedin-logo:before{content:"\e2ee";}
+.ph.ph-magnifying-glass:before{content:"\e30c";}
+.ph.ph-code:before{content:"\e1bc";}
+.ph.ph-chart-line-up:before{content:"\e156";}
+.ph.ph-browser:before{content:"\e0f4";}
+.ph.ph-map-pin:before{content:"\e316";}
+.ph.ph-gauge:before{content:"\e628";}
+.ph.ph-chart-bar:before{content:"\e150";}
+.ph.ph-envelope-simple:before{content:"\e218";}

@@ -1,195 +1,275 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Portfolio Website</title>
-    <script src="https://kit.fontawesome.com/16bf10d865.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Alejandro | Páginas web y SEO técnico en República Dominicana</title>
+    <meta name="description" content="Desarrollador web y especialista en SEO técnico. Creo páginas web rápidas y las preparo para Google para que tu negocio reciba más clientes.">
+    <link rel="canonical" href="https://jorgecesar7.github.io/">
+    <meta name="theme-color" content="#0b0f0c">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jorgecesar7.github.io/">
+    <meta property="og:title" content="Alejandro | Páginas web y SEO técnico">
+    <meta property="og:description" content="Creo páginas web rápidas y las preparo para Google para que tu negocio reciba más clientes.">
+    <meta property="og:image" content="https://jorgecesar7.github.io/img/og-image.jpg">
+    <meta property="og:locale" content="es_DO">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="icons.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://jorgecesar7.github.io/#alejandro",
+      "name": "Alejandro",
+      "url": "https://jorgecesar7.github.io/",
+      "image": "https://jorgecesar7.github.io/img/ranger.webp",
+      "jobTitle": "Desarrollador web y especialista en SEO técnico",
+      "email": "mailto:jorgecesarrevette@gmail.com",
+      "telephone": "+1-829-551-7567",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "DO"
+      },
+      "knowsAbout": ["Desarrollo web", "SEO técnico", "WordPress", "Google Analytics 4", "Google Tag Manager", "Google Search Console", "Datos estructurados", "Perfil de Empresa de Google"],
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "name": "AWS Certified Cloud Practitioner",
+        "credentialCategory": "certification"
+      },
+      "sameAs": [
+        "https://github.com/JorgeCesar7",
+        "https://www.linkedin.com/in/jorge-cesar-96657423a/"
+      ]
+    }
+    </script>
 </head>
 <body>
 
-    <!--Navigation Menu-->
+    <a class="skip-link" href="#main" data-i18n="skip">Saltar al contenido</a>
 
-    <nav>
-        <div class="nav-container">
-            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
-                <span>Alej</span>
-            </div>
-            <div class="links">
-                <div class="link" data-aos="fade-up" data-aos-duration="100"><a href="#">Home</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="200"><a href="#about">About</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="300"><a href="#skills">Skills</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="400"><a href="#experience">Experience</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="500"><a href="#contact">Contact</a></div>
-            </div>
-            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
-        </div>
-        <div class="dropdown">
-            <div class="links">
-                <a href="#">Home</a>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#experience">Experience</a>
-                <a href="#contact">Contact</a>
-                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
-            </div>
-        </div>
-    </nav>
-    <section>
-        <div class="main-container">
-            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
-                <img src="./Courier-logo.png" alt="">
-            </div>
-            <div class="content">
-                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
-                    Hey I'm <span>Alejandro</span>
-                </h1>
-                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span>
-                <label for="">|</label>
-            </div>
-                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">"Todo arte, en efecto, tiene su mira en que el método adoptado sea muy a propósito para aquel fin para el cual fue adoptado. Esto pretende el viñador con sus vides, el picador comandando potros, el cazador amaestrando sus perros. ¿Y a qué otra cosa aspiran los métodos de educación e instrucción? He ahí lo que en realidad merece estima. Si lo logras, no buscarás otro bien." — Marco Aurelio, Meditaciones</p>
-                <div class="social-icons">
-                    <a href="https://github.com/JorgeCesar7" target="_blank"><i class="fa-brands fa-github" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"></i></a>
-                    <a href="https://www.linkedin.com/in/jorge-cesar-96657423a/" target="_blank"><i class="fa-brands fa-linkedin" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"></i></a>
-                    <a href="https://discord.gg/XXhJFTBg" target="_blank"><i class="fa-brands fa-discord" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"></i></a>
-                    <a href="https://cloudhq.net/s/ec84eae6225f8d"><i class="fa-brands fa-google" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"></i></a>
+    <header class="nav" id="top">
+        <div class="nav-inner">
+            <a class="logo reveal" data-anim="zoom-in" style="--d:0ms" href="#home" aria-label="Alej, inicio"><span>Alej</span></a>
+
+            <nav class="links" aria-label="Principal">
+                <a class="reveal" data-anim="fade-up" style="--d:100ms" href="#home" data-i18n="nav_home">Inicio</a>
+                <a class="reveal" data-anim="fade-up" style="--d:200ms" href="#about" data-i18n="nav_about">Sobre mí</a>
+                <a class="reveal" data-anim="fade-up" style="--d:300ms" href="#skills" data-i18n="nav_skills">Habilidades</a>
+                <a class="reveal" data-anim="fade-up" style="--d:400ms" href="#experience" data-i18n="nav_experience">Experiencia</a>
+                <a class="reveal" data-anim="fade-up" style="--d:500ms" href="#contact" data-i18n="nav_contact">Contacto</a>
+            </nav>
+
+            <div class="nav-actions">
+                <div class="lang-switch" role="group" aria-label="Idioma / Language">
+                    <button type="button" class="lang-btn is-active" data-lang="es" aria-pressed="true">ES</button>
+                    <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+                    <span class="lang-thumb" aria-hidden="true"></span>
                 </div>
-                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
-                <button><a href="https://discord.gg/XXhJFTBg" target="_blank">Hire Me</a></button>
-                </div>
+                <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú" data-i18n-aria="menu_open">
+                    <i class="ph ph-list" aria-hidden="true"></i>
+                </button>
             </div>
         </div>
-    </section>
 
-    <!--About Section Start-->
+        <nav class="mobile-menu" id="mobile-menu" aria-label="Menú móvil" hidden>
+            <a href="#home" data-i18n="nav_home">Inicio</a>
+            <a href="#about" data-i18n="nav_about">Sobre mí</a>
+            <a href="#skills" data-i18n="nav_skills">Habilidades</a>
+            <a href="#experience" data-i18n="nav_experience">Experiencia</a>
+            <a href="#contact" data-i18n="nav_contact">Contacto</a>
+        </nav>
+    </header>
 
-    <section class="about" id="about">
-        <div class="content">
+    <main id="main">
 
-            <div class="title" data-aos="fade-up" data-aos-duration="1500" id="about"><span>About Me</span></div>
-            <div class="about-details">
-                <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
-                    <img src="./Courier-logo.png" alt="">
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="hero-inner">
+                <div class="hero-image reveal" data-anim="zoom-out" style="--d:0ms;--t:2.2s">
+                    <img src="img/ranger.webp" width="720" height="720" alt="Ilustración del ranger, el logo de Alej" data-i18n-alt="hero_alt" fetchpriority="high">
                 </div>
-                <div class="right">
-                    <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Technology Is My Passion</div>
-                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">Ever since I was a kid, I’ve been surrounded by computers, my mom owned an internet café, and that early exposure sparked a lifelong passion for technology. While I didn’t have the means to pursue a formal tech degree, I never let that stop me. I’m a self-driven learner, always finding ways to turn challenges into opportunities. Eventually, I found my calling in web development, and since then, I’ve been all-in; building projects, studying consistently, and honing my skills. This is just the beginning of the journey, and I’m excited to see where it leads</p>
-                    <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
-                        <a href="resume-jorge.pdf" download>
-                        <button>Download CV</button>
+                <div class="hero-content">
+                    <h1 class="reveal" data-anim="fade-left" style="--d:500ms"><span data-i18n="hero_hi">Hola, soy</span> <span class="glow">Alejandro</span></h1>
+                    <p class="typewriter reveal" data-anim="fade-right" style="--d:700ms" aria-live="off"><span class="typewriter-text"></span><span class="caret" aria-hidden="true">|</span></p>
+                    <p class="hero-sub reveal" data-anim="flip-down" style="--d:900ms" data-i18n="hero_sub">Creo páginas web rápidas y las preparo para Google para que tu negocio reciba más clientes.</p>
+                    <div class="hero-cta reveal" data-anim="zoom-in" style="--d:1200ms">
+                        <a class="btn btn-primary" href="https://wa.me/18295517567" target="_blank" rel="noopener">
+                            <i class="ph ph-whatsapp-logo" aria-hidden="true"></i><span data-i18n="cta_whatsapp">Escríbeme por WhatsApp</span>
                         </a>
+                        <a class="btn btn-ghost" href="#experience" data-i18n="cta_services">Ver lo que hago</a>
+                    </div>
+                    <div class="social">
+                        <a class="reveal" data-anim="fade-up" style="--d:1400ms" href="https://github.com/JorgeCesar7" target="_blank" rel="noopener" aria-label="GitHub"><i class="ph ph-github-logo" aria-hidden="true"></i></a>
+                        <a class="reveal" data-anim="fade-up" style="--d:1500ms" href="https://www.linkedin.com/in/jorge-cesar-96657423a/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ph ph-linkedin-logo" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
+        </section>
 
-        </div>
-    </section>
-
-    <!--My Skill Section Start-->
-
-    <section class="skills" id="skills">
-        <div class="content">
-            <div class="title" data-aos="fade-up" data-aos-duration="1200" id="skills"><span>My Skills</span></div>
-            <div class="skills-details">
-                <div class="text">
-                   <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
-                    Skills Reflect Our Knowledge
-                   </div>
-                   <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">So far in my journey, I’ve built a unique mix of skills that make me a strong candidate for any tech-forward team. I’m confident working with HTML and CSS to create clean, responsive designs. I’ve learned the basics of JavaScript for interactive web development, and I can hold my own when it comes to SQL and Linux. I also understand how to improve a site’s visibility through SEO, and I’m proud to have earned my AWS Cloud Practitioner certification, giving me a solid foundation in cloud technologies.</p>
-                   <div class="experience" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
-                    <div class="num">1.5</div>
-                    <div class="exp">Years of</br>Experience</div>
-                   </div>
-                </div>
-            <div class="boxes">
-                <div class="box">
-                    <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">HTML</div>
-                    <div class="percent" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">80%</div>
-                </div>
-                <div class="box">
-                    <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="150">CSS</div>
-                    <div class="percent" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">60%</div>
-                </div>
-                <div class="box">
-                    <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">JavaScript</div>
-                    <div class="percent" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">30%</div>
-                </div>
-                <div class="box">
-                    <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="450">SQL</div>
-                    <div class="percent" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">48%</div>
+        <!-- About -->
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title reveal" data-anim="fade-up"><span data-i18n="about_title">Sobre mí</span></h2>
+                <div class="about-grid">
+                    <figure class="about-image reveal" data-anim="fade-right" style="--d:200ms">
+                        <img src="img/ranger-closeup.webp" width="735" height="521" alt="Ilustración de un ranger con casco y máscara de gas" data-i18n-alt="about_alt" loading="lazy">
+                    </figure>
+                    <div class="about-text">
+                        <h3 class="reveal" data-anim="fade-left" style="--d:200ms" data-i18n="about_topic">La tecnología siempre ha sido lo mío</h3>
+                        <div class="reveal" data-anim="flip-down" style="--d:300ms">
+                            <p data-i18n="about_p1">Crecí rodeado de computadoras. Mi mamá tenía un cibercafé y ahí empezó todo.</p>
+                            <p data-i18n="about_p2">No pude estudiar una carrera de tecnología, así que aprendí por mi cuenta, proyecto por proyecto. Hoy me dedico al desarrollo web y al SEO técnico.</p>
+                            <p data-i18n="about_p3">Construyo páginas que cargan rápido, las estructuro para que Google las entienda y configuro la medición para saber qué está funcionando.</p>
+                        </div>
+                        <blockquote class="quote reveal" data-anim="zoom-in" style="--d:400ms">
+                            <p data-i18n="quote">"Todo arte tiene su mira en que el método adoptado sea muy a propósito para aquel fin para el cual fue adoptado."</p>
+                            <cite>Marco Aurelio, <span data-i18n="quote_book">Meditaciones</span></cite>
+                        </blockquote>
+                    </div>
                 </div>
             </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!--Experience Section Start-->
-    <section class="experience" id="experience">
-        <div class="content">
-            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Experience</span></div>
-            <div class="boxes">
-                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
-                    <div class="icon">
-                        <i class="fa-solid fa-laptop-code"></i>
+        <!-- Skills -->
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="section-title reveal" data-anim="fade-up"><span data-i18n="skills_title">Habilidades</span></h2>
+                <p class="section-lead reveal" data-anim="fade-up" style="--d:150ms" data-i18n="skills_lead">Lo que uso todos los días para que una página se vea bien, cargue rápido y Google la encuentre.</p>
+                <div class="skills-layout">
+                    <div class="terminal reveal" data-anim="fade-right" style="--d:200ms" aria-label="Resumen" data-i18n-aria="term_label">
+                        <div class="terminal-bar" aria-hidden="true"><span></span><span></span><span></span></div>
+                        <div class="terminal-body">
+                            <p class="prompt">alej@rd:~$ <span>whoami</span></p>
+                            <dl>
+                                <div><dt data-i18n="t_role">rol</dt><dd data-i18n="t_role_v">desarrollo web + SEO técnico</dd></div>
+                                <div><dt data-i18n="t_build">construyo con</dt><dd>HTML, CSS, JavaScript, WordPress</dd></div>
+                                <div><dt data-i18n="t_measure">mido con</dt><dd>GA4, Tag Manager, Search Console</dd></div>
+                                <div><dt data-i18n="t_struct">estructura</dt><dd data-i18n="t_struct_v">datos estructurados JSON-LD, sitemaps, robots.txt</dd></div>
+                                <div><dt data-i18n="t_auto">automatizo con</dt><dd data-i18n="t_auto_v">Node.js e IA</dd></div>
+                                <div><dt data-i18n="t_cert">certificación</dt><dd>AWS Cloud Practitioner</dd></div>
+                                <div><dt data-i18n="t_lang">idiomas</dt><dd data-i18n="t_lang_v">español, inglés</dd></div>
+                                <div><dt data-i18n="t_status">estado</dt><dd class="ok" data-i18n="t_status_v">disponible para proyectos</dd></div>
+                            </dl>
+                            <p class="prompt">alej@rd:~$ <span class="blink" aria-hidden="true">_</span></p>
+                        </div>
                     </div>
-                    <div class="topic">Web Development</div>
-                    <p>My experience with Web Development covers mostly the Front-end for now, I am skilled at HTML/CSS and a little bit of JavaScript</p>
-                </div>
-                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
-                    <div class="icon">
-                        <i class="fa-solid fa-cloud"></i>
+                    <div class="skills-grid">
+                        <article class="skill-card skill-main reveal" data-anim="fade-left" style="--d:150ms">
+                            <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
+                            <h3 data-i18n="sk_seo">SEO técnico</h3>
+                            <p data-i18n="sk_seo_p">Auditorías de rastreo e indexación, velocidad, estructura de páginas y datos estructurados que pasan las pruebas de Google sin errores.</p>
+                            <ul class="chips">
+                                <li>Google Search Console</li>
+                                <li>Screaming Frog</li>
+                                <li>Ahrefs</li>
+                                <li>Bing Webmaster Tools</li>
+                                <li data-i18n="chip_schema">Datos estructurados</li>
+                                <li>robots.txt</li>
+                                <li data-i18n="chip_gbp">Perfil de Empresa de Google</li>
+                            </ul>
+                        </article>
+                        <article class="skill-card reveal" data-anim="fade-left" style="--d:300ms">
+                            <i class="ph ph-code" aria-hidden="true"></i>
+                            <h3 data-i18n="sk_web">Desarrollo web</h3>
+                            <ul class="chips">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>WordPress</li>
+                            </ul>
+                        </article>
+                        <article class="skill-card reveal" data-anim="fade-left" style="--d:450ms">
+                            <i class="ph ph-chart-line-up" aria-hidden="true"></i>
+                            <h3 data-i18n="sk_data">Medición y nube</h3>
+                            <ul class="chips">
+                                <li>Google Analytics 4</li>
+                                <li>Google Tag Manager</li>
+                                <li>Microsoft Clarity</li>
+                                <li>AWS</li>
+                                <li>SQL</li>
+                                <li>Linux</li>
+                            </ul>
+                        </article>
                     </div>
-                    <div class="topic">Cloud Services</div>
-                    <p>I took my time to dive deep and understand the services that the cloud offers as I see there the future of the industry, I've had hands-on experience as well as I have learned the concepts</p>
-                </div>
-                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
-                    <div class="icon">
-                        <i class="fa-solid fa-database"></i>
-                    </div>
-                    <div class="topic">Databases (SQL)</div>
-                    <p>My experience with SQL based databases started from the cloud services while learning Aurora and Redshift, I also have hands-on experience with MySQL</p>
-                </div>
-                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
-                    <div class="icon">
-                        <i class="fa-solid fa-chart-simple"></i>
-                    </div>
-                    <div class="topic">SEO Strategist</div>
-                    <p>As a huge part of the digital marketing I studied the SEO strategies and how they are applied, I gained hands-on experience with Google Console, Keyword research, Ads management and responsive design</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!--Contact Section Start-->
-    <section class="contact" id="contact">
-        <div class="content">
-            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>Contact Me</span></div>
-            <div class="text">
-                <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Have Any Projects?</div>
-                <p>I'm always open to new projects and collaborations. If you have an idea or a project in mind, feel free to reach out!</p>
-                <div class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
-                    <button><a class="link" href="https://discord.gg/XXhJFTBg" target="_blank">Let's Connect</a></button>
+        <!-- Experience / services -->
+        <section class="experience" id="experience">
+            <div class="container">
+                <h2 class="section-title reveal" data-anim="fade-up"><span data-i18n="exp_title">Lo que hago</span></h2>
+                <p class="section-lead reveal" data-anim="fade-up" style="--d:150ms" data-i18n="exp_lead">Más de un año en SEO técnico para negocios de servicios. Ahora también construyo sus páginas.</p>
+                <ol class="services">
+                    <li class="service reveal" data-anim="fade-up" style="--d:200ms">
+                        <i class="ph ph-browser" aria-hidden="true"></i>
+                        <div>
+                            <h3 data-i18n="sv1">Páginas web</h3>
+                            <p data-i18n="sv1_p">Sitios hechos para celular, con botón de WhatsApp y listos para Google desde el primer día.</p>
+                        </div>
+                    </li>
+                    <li class="service reveal" data-anim="fade-up" style="--d:350ms">
+                        <i class="ph ph-map-pin" aria-hidden="true"></i>
+                        <div>
+                            <h3 data-i18n="sv2">Google Maps</h3>
+                            <p data-i18n="sv2_p">Creo o arreglo tu Perfil de Empresa: categorías, horario, fotos y un código QR para pedir reseñas.</p>
+                        </div>
+                    </li>
+                    <li class="service reveal" data-anim="fade-up" style="--d:500ms">
+                        <i class="ph ph-gauge" aria-hidden="true"></i>
+                        <div>
+                            <h3 data-i18n="sv3">SEO técnico</h3>
+                            <p data-i18n="sv3_p">Velocidad, estructura, sitemap y datos estructurados para que Google rastree e indexe bien tu sitio.</p>
+                        </div>
+                    </li>
+                    <li class="service reveal" data-anim="fade-up" style="--d:650ms">
+                        <i class="ph ph-chart-bar" aria-hidden="true"></i>
+                        <div>
+                            <h3 data-i18n="sv4">Medición</h3>
+                            <p data-i18n="sv4_p">Analytics, Tag Manager y Search Console para saber cuánta gente te encuentra y te escribe.</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact-box">
+                    <div class="contact-content">
+                        <h2 class="reveal" data-anim="fade-left" style="--d:150ms" data-i18n="contact_title">¿Tu negocio necesita aparecer en Google?</h2>
+                        <p class="reveal" data-anim="fade-left" style="--d:250ms" data-i18n="contact_p">Cuéntame qué haces y te digo cómo podemos trabajar juntos.</p>
+                        <div class="contact-links">
+                            <a class="contact-link reveal" data-anim="zoom-in" style="--d:350ms" href="https://wa.me/18295517567" target="_blank" rel="noopener">
+                                <i class="ph ph-whatsapp-logo" aria-hidden="true"></i>
+                                <span><strong>WhatsApp</strong>829-551-7567</span>
+                            </a>
+                            <a class="contact-link reveal" data-anim="zoom-in" style="--d:450ms" href="mailto:jorgecesarrevette@gmail.com">
+                                <i class="ph ph-envelope-simple" aria-hidden="true"></i>
+                                <span><strong data-i18n="email">Correo</strong>jorgecesarrevette@gmail.com</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!--Footer Section Start-->
-    <footer>
-        <div class="text">
-            <span>Created By <a href="#">Alejandro</a> | &#169; 2025 All Rights Reserved</span>
-        </div>
+    <footer class="footer">
+        <p><span data-i18n="footer">Hecho por</span> <a href="#home">Alejandro</a> &copy; <span id="year">2026</span></p>
     </footer>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({offset:0});
-    </script>
     <script src="script.js"></script>
-    
 </body>
 </html>
