@@ -66,11 +66,11 @@
 
     var META = {
         es: {
-            title: "Diseño de páginas web y SEO en Santo Domingo | Alejandro",
+            title: "Diseño de páginas web y SEO en Santo Domingo | Lampstand",
             desc: "Diseño páginas web rápidas para negocios en Santo Domingo y las dejo listas para Google: SEO técnico, Google Maps y Analytics. Escríbeme por WhatsApp."
         },
         en: {
-            title: "Web Design and SEO in Santo Domingo, DR | Alejandro",
+            title: "Web Design and SEO in Santo Domingo, DR | Lampstand",
             desc: "I build fast websites for businesses in Santo Domingo and get them ready for Google: technical SEO, Google Maps and Analytics. Message me on WhatsApp."
         }
     };
