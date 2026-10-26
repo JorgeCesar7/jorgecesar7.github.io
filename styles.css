@@ -609,6 +609,9 @@ section:not(.hero) { padding: 96px 0; }
 .footer a { color: var(--accent); font-weight: 500; }
 
 /* Reveal animations (replaces the old AOS library) */
+/* Evita el scroll lateral en móvil mientras las animaciones fade-left/right están fuera de su sitio */
+main { overflow-x: clip; }
+
 .reveal[data-anim] {
     opacity: 0;
     transition: opacity var(--t, 0.9s) ease, transform var(--t, 0.9s) cubic-bezier(.2, .7, .2, 1);
