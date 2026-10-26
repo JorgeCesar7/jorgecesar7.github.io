@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://jorgecesar7.github.io/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <image:image>
       <image:loc>https://jorgecesar7.github.io/img/lampstand-hero.webp</image:loc>
     </image:image>
@@ -13,11 +13,17 @@
   </url>
   <url>
     <loc>https://jorgecesar7.github.io/paginas-web/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-23</lastmod>
+    <image:image>
+      <image:loc>https://jorgecesar7.github.io/img/pagina-web-ejemplo-barberia.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://jorgecesar7.github.io/google-maps/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-23</lastmod>
+    <image:image>
+      <image:loc>https://jorgecesar7.github.io/img/perfil-google-ejemplo.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://jorgecesar7.github.io/pagina-web-para-barberias/</loc>
@@ -25,5 +31,9 @@
     <image:image>
       <image:loc>https://jorgecesar7.github.io/img/demo-barberia-movil.webp</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>https://jorgecesar7.github.io/privacidad/</loc>
+    <lastmod>2026-10-23</lastmod>
   </url>
 </urlset>

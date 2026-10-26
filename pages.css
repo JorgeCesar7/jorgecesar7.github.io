@@ -172,3 +172,18 @@ section.block { padding: 72px 0; border-top: 1px solid var(--line); }
     section.block { padding: 56px 0; }
     .page-hero { padding: 28px 0 48px; }
 }
+
+/* Figures with captions (2026-10-23) */
+.shot { margin: 24px 0 28px; }
+.shot img { display: block; width: 100%; height: auto; border-radius: var(--radius); border: 1px solid var(--line); }
+.shot figcaption { margin-top: 10px; color: var(--muted); font-size: 0.9rem; }
+
+/* Legal pages */
+.updated { margin-top: 14px; color: var(--muted); font-size: 0.9rem; }
+.legal { max-width: 760px; }
+.legal h2 { margin: 32px 0 10px; }
+.legal h2:first-child { margin-top: 0; }
+.legal p { margin: 0 0 14px; color: var(--muted); }
+.legal ul { list-style: disc; padding-left: 22px; margin: 0 0 14px; color: var(--muted); }
+.legal li { margin-bottom: 8px; }
+.legal a { color: var(--accent); }

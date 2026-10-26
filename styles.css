@@ -247,6 +247,15 @@ ul, ol { list-style: none; }
     font-weight: 700;
 }
 
+.hero h1 .h1-sub {
+    display: block;
+    margin-top: 10px;
+    font-size: clamp(1rem, 0.85rem + 0.6vw, 1.3rem);
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--text);
+}
+
 .typewriter {
     margin-top: 10px;
     min-height: 1.6em;
