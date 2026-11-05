@@ -6,6 +6,25 @@
         nav_skills: "Skills",
         nav_experience: "Experience",
         nav_contact: "Contact",
+        nav_services: "Services",
+        nav_example: "Example",
+        hero_note: "I'll review how your business shows up on Google for free and send it to you on WhatsApp within 24 hours.",
+        ex_title: "An Example of My Work",
+        ex_alt: "Example website for a fictional barbershop, shown on a computer and a phone, with a WhatsApp booking button",
+        ex_h3: "A website for a barbershop",
+        ex_p1: "This demo shows what a business gets: clear services and prices, photos of the shop, WhatsApp booking and its location on Google Maps.",
+        ex_p2: "The barbershop is made up, but the website really works on a computer and on a phone.",
+        ex_demo: "See the demo",
+        ex_page: "Websites for barbershops",
+        pr_title: "How I Work",
+        pr_lead: "Three steps, no commitment until you see the proposal.",
+        pr1: "1. Free review",
+        pr1_p: "Send me your business name and within 24 hours I'll show you on WhatsApp how people see you on Google today and what I would change.",
+        pr2: "2. Fixed-price proposal",
+        pr2_p: "I tell you what's included and what it costs before we start, so there are no surprises.",
+        pr3: "3. Launch and tracking",
+        pr3_p: "I publish your website or profile, connect it to Google and show you how many people find you and reach out.",
+        contact_more: 'You can also find me on <a href="https://www.facebook.com/profile.php?id=100068271384441" target="_blank" rel="noopener">Facebook</a> and <a href="https://www.google.com/maps?cid=4128158167566416092" target="_blank" rel="noopener">Google Maps</a>.',
         menu_open: "Open menu",
         menu_close: "Close menu",
         hero_alt: "Lampstand logo, a lit lamp",
@@ -16,10 +35,10 @@
         fl_privacy: "Privacy",
         about_alt: "Illustration of a website on a computer and a Google map on a phone",
         hero_hi: "Hey, I'm",
-        hero_h1_sub: "Websites and SEO for businesses in Santo Domingo",
+        hero_h1_sub: "Lampstand: websites and SEO for businesses in Santo Domingo",
         hero_sub: "I build fast websites and get them ready for Google so your business gets more customers.",
         cta_whatsapp: "Message me on WhatsApp",
-        cta_services: "See what I do",
+        cta_services: "See services",
         about_title: "About Me",
         about_topic: "Technology has always been my thing",
         about_p1: "I grew up surrounded by computers. My mom owned an internet café, and that is where it all started.",
@@ -66,14 +85,14 @@
     };
 
     var ROLES = {
-        es: ["Desarrollador web", "Especialista en SEO técnico", "AWS Cloud Practitioner"],
-        en: ["Web Developer", "Technical SEO Specialist", "AWS Cloud Practitioner"]
+        es: ["Páginas web para negocios", "Perfil de Google Maps", "SEO técnico"],
+        en: ["Websites for businesses", "Google Maps profiles", "Technical SEO"]
     };
 
     var META = {
         es: {
             title: "Páginas web y SEO para negocios en Santo Domingo | Lampstand",
-            desc: "Diseño páginas web rápidas para negocios en Santo Domingo y las dejo listas para Google: SEO técnico, Google Maps y Analytics. Escríbeme por WhatsApp."
+            desc: "Lampstand diseña páginas web rápidas para negocios en Santo Domingo y las deja listas para Google: SEO técnico, Google Maps y Analytics. Escríbame por WhatsApp."
         },
         en: {
             title: "Web Design and SEO in Santo Domingo, DR | Lampstand",
@@ -99,6 +118,9 @@
     document.querySelectorAll("[data-i18n-alt]").forEach(function (el) {
         ES[el.getAttribute("data-i18n-alt")] = el.getAttribute("alt");
     });
+    document.querySelectorAll("[data-i18n-html]").forEach(function (el) {
+        ES[el.getAttribute("data-i18n-html")] = el.innerHTML;
+    });
     document.querySelectorAll("[data-i18n-aria]").forEach(function (el) {
         ES[el.getAttribute("data-i18n-aria")] = el.getAttribute("aria-label");
     });
@@ -118,6 +140,9 @@
         });
         document.querySelectorAll("[data-i18n-alt]").forEach(function (el) {
             el.setAttribute("alt", t(el.getAttribute("data-i18n-alt")));
+        });
+        document.querySelectorAll("[data-i18n-html]").forEach(function (el) {
+            el.innerHTML = t(el.getAttribute("data-i18n-html"));
         });
         document.querySelectorAll("[data-i18n-aria]").forEach(function (el) {
             el.setAttribute("aria-label", t(el.getAttribute("data-i18n-aria")));
@@ -226,6 +251,22 @@
         }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
         items.forEach(function (el) { io.observe(el); });
     }
+
+    // Contact clicks: GA4 "whatsapp_click" (already a key event), "email_click" or "phone_click", plus a Clarity tag.
+    document.addEventListener("click", function (e) {
+        var a = e.target.closest && e.target.closest('a[href^="https://wa.me/"], a[href^="mailto:"], a[href^="tel:"]');
+        if (!a) return;
+        var href = a.getAttribute("href");
+        var method = href.indexOf("wa.me") > -1 ? "whatsapp" : (href.indexOf("mailto:") === 0 ? "email" : "phone");
+        var section = a.closest("section, header, footer");
+        var where = section ? (section.id || section.className.split(" ")[0]) : "page";
+        if (typeof window.gtag === "function") {
+            window.gtag("event", method + "_click", { link_location: where });
+        }
+        if (typeof window.clarity === "function") {
+            window.clarity("event", "contact_" + method);
+        }
+    });
 
     document.getElementById("year").textContent = new Date().getFullYear();
 

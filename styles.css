@@ -677,3 +677,20 @@ main { overflow-x: clip; }
     .logo span { font-size: 1.22rem; }
     .nav-actions { gap: 8px; }
 }
+
+/* 2026-11-05: hero note, inline brand icons, example section, contact extras */
+.hero-note { margin-top: 14px; font-size: 0.92rem; color: var(--muted); max-width: 46ch; }
+.social a .si { width: 20px; height: 20px; display: block; }
+.example-image img { aspect-ratio: 1200 / 700; object-fit: contain; background: #0b0f0c; }
+.example .hero-cta { margin-top: 22px; }
+.contact-more { margin-top: 22px; color: var(--muted); font-size: 0.95rem; }
+.contact-more a { color: var(--accent); font-weight: 500; }
+.contact-more a:hover { text-shadow: var(--glow); }
+@media (max-width: 900px) { .hero-note { margin-inline: auto; } .example .hero-cta { justify-content: center; } }
+/* Phones: keep the WhatsApp button inside the first screen */
+@media (max-width: 560px) {
+    .hero { padding-top: 16px; }
+    .hero-inner { gap: 18px; }
+    .hero-image { width: min(150px, 40vw); }
+    .hero-sub { font-size: 1rem; }
+}
