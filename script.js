@@ -33,9 +33,10 @@
         fl_web: "Websites",
         fl_barber: "Websites for barbershops",
         fl_privacy: "Privacy",
+        fl_guide: "Guide: Google Maps",
         about_alt: "Illustration of a website on a computer and a Google map on a phone",
         hero_hi: "Hey, I'm",
-        hero_h1_sub: "Lampstand: websites and SEO for businesses in Santo Domingo",
+        hero_h1_sub: "Lampstand Web Services: websites and SEO for businesses in Santo Domingo",
         hero_sub: "I build fast websites and get them ready for Google so your business gets more customers.",
         cta_whatsapp: "Message me on WhatsApp",
         cta_services: "See services",
@@ -91,11 +92,11 @@
 
     var META = {
         es: {
-            title: "Páginas web y SEO para negocios en Santo Domingo | Lampstand",
+            title: "Lampstand Web Services | Páginas web y SEO en Santo Domingo",
             desc: "Lampstand diseña páginas web rápidas para negocios en Santo Domingo y las deja listas para Google: SEO técnico, Google Maps y Analytics. Escríbame por WhatsApp."
         },
         en: {
-            title: "Web Design and SEO in Santo Domingo, DR | Lampstand",
+            title: "Lampstand Web Services | Web Design and SEO in Santo Domingo",
             desc: "I build fast websites for businesses in Santo Domingo and get them ready for Google: technical SEO, Google Maps and Analytics. Message me on WhatsApp."
         }
     };

@@ -187,3 +187,48 @@ section.block { padding: 72px 0; border-top: 1px solid var(--line); }
 .legal ul { list-style: disc; padding-left: 22px; margin: 0 0 14px; color: var(--muted); }
 .legal li { margin-bottom: 8px; }
 .legal a { color: var(--accent); }
+
+/* Guides (2026-11-12) */
+.page-hero .byline { margin-top: 16px; color: var(--muted); font-size: 0.92rem; }
+.page-hero .byline a { color: var(--accent); }
+.guide-layout { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 48px; align-items: start; padding-bottom: 24px; }
+.guide-main { min-width: 0; max-width: 760px; }
+section.answer { background: var(--surface); border: 1px solid rgba(46, 204, 113, 0.45); border-radius: var(--radius); padding: 24px 26px; box-shadow: 0 0 26px rgba(46, 204, 113, 0.12); }
+.answer h2 { font-size: 1.05rem; font-weight: 600; color: var(--accent); letter-spacing: 0.4px; }
+.answer p { margin-top: 10px; color: var(--text); }
+.toc { margin-top: 28px; padding: 20px 24px; border: 1px solid var(--line); border-radius: var(--radius); }
+.toc-title { font-weight: 600; }
+.toc ol { margin-top: 10px; display: grid; gap: 6px; list-style: decimal; padding-left: 20px; color: var(--muted); }
+.toc a { color: var(--muted); }
+.toc a:hover { color: var(--accent); }
+section.guide-sec { padding: 48px 0 0; scroll-margin-top: 90px; }
+.guide-sec h2 { font-size: clamp(1.35rem, 1.05rem + 1vw, 1.75rem); font-weight: 600; line-height: 1.25; }
+.guide-sec h3 { margin-top: 28px; font-size: 1.15rem; font-weight: 600; }
+.guide-sec p { margin-top: 14px; color: var(--muted); }
+.guide-sec a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.howto { margin-top: 18px; display: grid; gap: 12px; counter-reset: howto; }
+.howto li { position: relative; padding: 14px 16px 14px 58px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); color: var(--muted); counter-increment: howto; }
+.howto li::before { content: counter(howto); position: absolute; left: 14px; top: 12px; width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: var(--accent); color: var(--accent-ink); font-weight: 700; font-size: 0.9rem; }
+.howto li strong { color: var(--text); font-weight: 600; }
+.table-wrap { margin-top: 18px; overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius-sm); }
+.table-wrap table { width: 100%; border-collapse: collapse; font-size: 0.95rem; min-width: 560px; }
+.table-wrap caption { text-align: left; padding: 12px 16px; color: var(--muted); font-size: 0.88rem; caption-side: bottom; }
+.table-wrap th, .table-wrap td { padding: 12px 16px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+.table-wrap thead th { color: var(--accent); font-weight: 600; background: var(--surface); }
+.table-wrap tbody th { font-weight: 600; color: var(--text); white-space: nowrap; }
+.table-wrap td { color: var(--muted); }
+.guide-sec .checks { max-width: none; }
+.author-box { margin-top: 56px; display: grid; grid-template-columns: 64px 1fr; gap: 18px; padding: 22px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.author-box img { border-radius: 50%; }
+.author-name { font-weight: 600; }
+.author-box p + p { margin-top: 6px; color: var(--muted); font-size: 0.93rem; }
+.guide-side { position: sticky; top: 96px; }
+.side-cta { padding: 24px; border-radius: var(--radius); border: 1px solid rgba(46, 204, 113, 0.45); background: var(--surface); box-shadow: 0 0 26px rgba(46, 204, 113, 0.14); }
+.side-title { font-weight: 600; font-size: 1.08rem; }
+.side-cta p + p { margin-top: 8px; color: var(--muted); font-size: 0.95rem; }
+.side-cta .btn { margin-top: 16px; width: 100%; justify-content: center; }
+@media (max-width: 960px) {
+    .guide-layout { grid-template-columns: 1fr; }
+    .guide-side { position: static; }
+}
+.checks.crosses li::before { content: "\00d7"; width: auto; height: auto; border: 0; transform: none; top: -0.05em; left: 3px; color: #ff6b6b; font-size: 1.35rem; font-weight: 600; line-height: 1; }

@@ -1,6 +1,6 @@
-# Lampstand: diseño de páginas web y SEO en Santo Domingo
+# Lampstand Web Services: diseño de páginas web y SEO en Santo Domingo
 
-> Lampstand es el negocio de Alejandro, desarrollador web y especialista en SEO técnico en Santo Domingo, República Dominicana. Diseña páginas web rápidas para negocios locales, las deja listas para Google y configura la medición con Google Analytics 4, Tag Manager y Search Console. Trabaja de forma remota y también se reúne en persona en el Distrito Nacional.
+> Lampstand Web Services (Lampstand) es el negocio de Alejandro, desarrollador web y especialista en SEO técnico en Santo Domingo, República Dominicana. Diseña páginas web rápidas para negocios locales, las deja listas para Google y configura la medición con Google Analytics 4, Tag Manager y Search Console. Trabaja de forma remota y también se reúne en persona en el Distrito Nacional.
 
 ## Servicios
 
@@ -12,6 +12,10 @@
 ## Cómo trabaja
 
 - [Proceso](https://jorgecesar7.github.io/#proceso): revisión gratis del negocio por WhatsApp en 24 horas, propuesta con precio cerrado y entrega con medición.
+
+## Guías
+
+- [Cómo poner mi negocio en Google Maps desde el celular](https://jorgecesar7.github.io/como-poner-mi-negocio-en-google-maps/): requisitos, los 8 pasos en el celular, cómo reclamar un perfil, los 5 métodos de verificación de Google (incluido el video), negocios sin local, costo y errores que causan suspensión, con la ayuda oficial de Google como fuente.
 
 ## Páginas por tipo de negocio
 
